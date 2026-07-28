@@ -1,0 +1,10 @@
+packages:
+  - 'packages/*'
+
+allowBuilds:
+  bcrypt: true
+  sharp: true
+
+onlyBuiltDependencies:
+  - fsevents
+  - sharp
